@@ -22,3 +22,15 @@ res.json(results);
 
 })
 
+app.get("/student/studentsList",(req,res)=>
+{
+   
+res.json(results);
+
+})
+
+//list of imp commands
+//git push heroku Head:master
+//git push origin3 main --force
+//git commit -am "update in the studentListUrl"(skip the staging area and go directly to commit)
+//git add --all(add all the changes at once)
