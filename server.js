@@ -15,7 +15,7 @@ res.json(results);
 })
 
 
-app.get("/student/studentsList",(req,res)=>
+app.get("https://practice-studentdetailslink.herokuapp.com/student/studentsList",(req,res)=>
 {
    
 res.json(results);
